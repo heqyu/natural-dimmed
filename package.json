@@ -1,7 +1,11 @@
 {
-  "name": "natural-dimmed",
-  "displayName": "Natural Dimmed",
-  "description": "",
+  "name": "natural-dimmed-theme",
+  "repository": "",
+  "displayName": "Natural Dimmed Theme",
+  "description": "A dark theme with natural colors",
+  "publisher": "hitheqing",
+  "icon": "icon.png",
+  "license": "MIT",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
