@@ -1,12 +1,12 @@
 {
   "name": "natural-dimmed-theme",
-  "repository": "",
+  "repository": "https://github.com/heqyu/natural-dimmed",
   "displayName": "Natural Dimmed Theme",
-  "description": "A dark theme with natural colors",
-  "publisher": "hitheqing",
+  "description": "暗色主题，调整了c++/lua/typescript/python等语言的颜色，使其更加舒适。 Dark theme, adjusted the colors of c++/lua/typescript/python and other languages to make it more comfortable.",
+  "publisher": "heqyu",
   "icon": "icon.png",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },

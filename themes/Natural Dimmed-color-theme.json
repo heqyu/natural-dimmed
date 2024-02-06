@@ -136,7 +136,8 @@
 			"settings": {
 				"foreground": "#ad1578"
 			}
-		},{
+		},
+		{
 			"name": "c++ null",
 			"scope": [
 				"source.cmake"
@@ -175,6 +176,24 @@
 				"foreground": "#949d15"
 			}
 		},
+		{
+			"name": "Global Variable",
+			"scope": [
+				"variable.other.global.cpp"
+			],
+			"settings": {
+				"foreground": "#d7094a"
+			}
+		},
+		{
+			"name": "Global Variable",
+			"scope": [
+				"variable.other.property.cpp"
+			],
+			"settings": {
+				"foreground": "#7c3780"
+			}
+		},
 		// C++ ---------------------------------------------------------------------------------------------------------
 		// 函数，方法
 		{
@@ -205,6 +224,7 @@
 		{
 			"name": "Class, Entity, Tag",
 			"scope": [
+				"type",
 				"entity.name.class",
 				"entity.name.class.lua",
 				"entity.name.type.class",
@@ -272,6 +292,45 @@
 			],
 			"settings": {
 				"foreground": "#728e72"
+			}
+		},
+		{
+			"name": "python 函数调用",
+			"scope": [
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#ce8b0f"
+			}
+		},
+		{
+			"name": "python self",
+			"scope": [
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				"foreground": "#1f982b"
+			}
+		},
+		{
+			"name": "python attribute",
+			"scope": [
+				"meta.attribute.python",
+				"meta.member.access.python"
+			],
+			"settings": {
+				"foreground": "#7c3780"
+			}
+		},
+		{
+			"name": "python attribute",
+			"scope": [
+				"constant.language.python",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a61489"
 			}
 		},
 		// python ---------------------------------------------------------------------------------------------------------
@@ -381,6 +440,57 @@
 			],
 			"settings": {
 				"foreground": "#862e71"
+			}
+		},
+		{
+			"name": "TS constant",
+			"scope": [
+				"variable.other.constant.ts",
+			],
+			"settings": {
+				"foreground": "#d7094a"
+			}
+		},
+		{
+			"name": "TS this",
+			"scope": [
+				"variable.language.this.ts",
+			],
+			"settings": {
+				"foreground": "#1f982b"
+			}
+		},
+		// {
+		// 	"name": "TS function call",
+		// 	"scope": [
+		// 		"entity.name.function.ts",
+		// 		"meta.function-call.ts",
+		// 		"source.ts",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#ce8b0f"
+		// 	}
+		// },
+		{
+			"name": "TS function def",
+			"scope": [
+				"entity.name.function.ts",
+				"meta.definition.function.ts",
+				"meta.function.ts",
+				"source.ts"
+			],
+			"settings": {
+				"foreground": "#ae5c0b"
+			}
+		},
+		{
+			"name": "TS boolean",
+			"scope": [
+				"constant.language.boolean",
+			],
+			"settings": {
+				"foreground": "#a61489",
+				"fontStyle": "bold"
 			}
 		},
 		// TS ---------------------------------------------------------------------------------------------------------
