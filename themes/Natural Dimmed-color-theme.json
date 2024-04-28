@@ -57,7 +57,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#6d706a"
+				"foreground": "#535551"
 			}
 		},
 		// 多行注释
@@ -153,6 +153,7 @@
 				"entity.name.function.preprocessor"
 			],
 			"settings": {
+				"fontStyle": "bold",
 				"foreground": "#ad1578"
 			}
 		},
@@ -182,16 +183,17 @@
 				"variable.other.global.cpp"
 			],
 			"settings": {
-				"foreground": "#d7094a"
+				"fontStyle": "bold",
+				"foreground": "#c33a65"
 			}
 		},
 		{
-			"name": "Global Variable",
+			"name": "Property",
 			"scope": [
-				"variable.other.property.cpp"
+				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#7c3780"
+				"foreground": "#9b4086"
 			}
 		},
 		// C++ ---------------------------------------------------------------------------------------------------------
@@ -217,7 +219,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#85890e"
+				"foreground": "#a58652"
 			}
 		},
 		// Class
@@ -234,7 +236,7 @@
 				"tag.name"
 			],
 			"settings": {
-				"foreground": "#158836"
+				"foreground": "#4295a0"
 			}
 		},
 		// 字符串  浅蓝色
@@ -247,10 +249,11 @@
 				"foreground": "#7d7c8e"
 			}
 		},
-		// 数字，常量
+		// 数字，常量, 运算符
 		{
 			"name": "Constant, Numeric",
 			"scope": [
+				"keyword.operator",
 				"constant",
 				"entity.name.constant",
 				"variable.other.constant",
@@ -261,7 +264,7 @@
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#8e9410"
+				"foreground": "#c36e57"
 			}
 		},
 		// json 中的key
@@ -310,7 +313,7 @@
 				"variable.language.special.self.python",
 			],
 			"settings": {
-				"foreground": "#1f982b"
+				"foreground": "#4295a0"
 			}
 		},
 		{
@@ -320,7 +323,7 @@
 				"meta.member.access.python"
 			],
 			"settings": {
-				"foreground": "#7c3780"
+				"foreground": "#862e71"
 			}
 		},
 		{
@@ -341,7 +344,7 @@
 				"variable.language.self.lua",
 			],
 			"settings": {
-				"foreground": "#1f982b"
+				"foreground": "#4295a0"
 			}
 		},
 		{
@@ -350,17 +353,42 @@
 				"entity.other.attribute.lua",
 			],
 			"settings": {
-				"foreground": "#7c3780"
+				"foreground": "#862e71"
 			}
 		},
 		{
 			"name": "lua global",
 			"scope": [
 				"variable.global.lua",
-				"support.function.any-method.lua",
 			],
 			"settings": {
 				"foreground": "#d7094a"
+			}
+		},
+		{
+			"name": "lua default",
+			"scope": [
+				"source.lua",
+			],
+			"settings": {
+				"foreground": "#8b7f7f"
+			}
+		},
+		{
+			"name": "lua 函数调用",
+			"scope": [
+				"support.function.any-method.lua",
+			],
+			"settings": {
+				"foreground": "#ae5c0b"
+			}
+		},{
+			"name": "lua 函数定义",
+			"scope": [
+				"entity.name.function.lua",
+			],
+			"settings": {
+				"foreground": "#8d8d1c"
 			}
 		},
 		{
@@ -386,19 +414,20 @@
 			"name": "lua 类型标记",
 			"scope": [
 				"support.type.lua",
+				"support.class.lua",
 				"storage.type.annotation.lua"
 			],
 			"settings": {
-				"foreground": "#237c1e"
+				"foreground": "#4295a0"
 			}
 		},
 		{
-			"name": "lua 类型标记",
+			"name": "lua 字段",
 			"scope": [
 				"variable.other.lua",
 			],
 			"settings": {
-				"foreground": "#728e72"
+				"foreground": "#3f9371"
 			}
 		},
 		// lua ---------------------------------------------------------------------------------------------------------
@@ -412,7 +441,7 @@
 				"support.type.primitive.ts",
 			],
 			"settings": {
-				"foreground": "#246e2c"
+				"foreground": "#4295a0"
 			}
 		},
 		{
@@ -431,15 +460,6 @@
 			],
 			"settings": {
 				"foreground": "#728e72"
-			}
-		},
-		{
-			"name": "TS properties",
-			"scope": [
-				"variable.other.property.ts",
-			],
-			"settings": {
-				"foreground": "#862e71"
 			}
 		},
 		{
